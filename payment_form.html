@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>payment_form</title>
+</head>
+<body>
+     <form action="">
+    <h1>PAYMENT FORM</h1>
+    <h2><u>Personal Info.</u></h2>
+    <p>NAME:*<input type="text" name="name" style="text-transform:uppercase"required></p>
+    <fieldset>    
+    <legend>Gender*</legend>
+        <p>
+            Male<input type="radio" id="male" name="gender"required>
+            Female<input type="radio" id="female" name="gender"required>
+            </p>
+    </fieldset>
+    <p>Address:*<textarea name="address" id="address" cols="100" rows="8"style="text-transform:uppercase"required></textarea> </p>
+    <p>Email:*<input type="email" name="email" id="email"required></p>
+    <p>Pincode:*<input type="number" name="pincode" id="pincode"required ></p>    
+    <h2><u>Payment Info.</u></h2>
+    <p>Card Type *
+        <select name="card_type" value="card_type"required>
+            <option value="">---select card---</option>
+            <option value="Rupay">Rupay</option>
+            <option value="Visa">Visa</option>
+            <option value="Platinum">Platinum</option>
+            <option value="Master card">Master card</option>
+        </select>
+    </p>
+    <p>Card No.*:<input type="number" name="card no."required></p>
+    <p>Expiry Date:*<input type="date" name="expiry_date"required></p>
+    <p>CVV:*<input type="password" name="cvv"required></p>
+    <a href="Animation.htm">
+    <button>Submit</button>
+    </a>
+    </form>
+</body>
+</html>
